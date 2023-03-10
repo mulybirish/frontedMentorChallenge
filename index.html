@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Merriweather&family=Montserrat:wght@200;300;400&family=Roboto:wght@100&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+    <link rel="stylesheet" href="app.css" />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <span class="title">Your Result </span>
+        <div class="result">
+          <span class="score">76</span>
+          <span class="out-of"> of 100</span>
+        </div>
+        <div>
+          <h2>Great</h2>
+          <p>
+            You scored higher than 65% of the people who have taken <br />these
+            tests.
+          </p>
+        </div>
+      </div>
+      <div class="right">
+        <h3>Summary</h3>
+        <div class="list-button-container">
+          <ul>
+            <li>
+              <div class="list-div">
+                <div class="svg-criteria">
+                  <img src="/assets/images/icon-reaction.svg" alt="" />
+                  <span class="criteria">Reaction</span>
+                </div>
+                <span>80 <span class="out-of-100">/ 100</span></span>
+              </div>
+            </li>
+            <li>
+              <div class="list-div">
+                <div class="svg-criteria">
+                  <img src="/assets/images/icon-memory.svg" alt="" />
+                  <span class="criteria">Memory</span>
+                </div>
+                <span>92 <span class="out-of-100"> / 100</span></span>
+              </div>
+            </li>
+            <li>
+              <div class="list-div">
+                <div class="svg-criteria">
+                  <img src="/assets/images/icon-verbal.svg" alt="" />
+                  <span class="criteria">Verbal</span>
+                </div>
+                <span>61<span class="out-of-100"> / 100</span></span>
+              </div>
+            </li>
+            <li>
+              <div class="list-div">
+                <div class="svg-criteria">
+                  <img src="/assets/images/icon-visual.svg" alt="" />
+                  <span class="criteria">Visual</span>
+                </div>
+                <span>72 <span class="out-of-100"> / 100</span></span>
+              </div>
+            </li>
+          </ul>
+          <button>Continue</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Mulugeta Birish</a>.
+    </div>
+  </body>
+</html>
