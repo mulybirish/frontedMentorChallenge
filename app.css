@@ -171,3 +171,19 @@ button:hover {
   justify-content: center;
   gap: 10px;
 }
+
+@media only screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    /* width: 100%; */
+    width: 390px;
+    /* background: #000; */
+  }
+  .right {
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 30px;
+  }
+  .left {
+    /* z-index: 10; */
+  }
+}
